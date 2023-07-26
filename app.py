@@ -4,7 +4,7 @@ import os
 
 app = Flask(__name__)
 
-@app.route("/")
+@app.route("/ignimgs.com/")
 def index():
     image_dir = "static/images"
     image_files = os.listdir(image_dir)
